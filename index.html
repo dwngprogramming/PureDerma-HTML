@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Hướng dẫn vệ sinh & Chăm sóc da mụn</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description"
+        content="Routine đầy đủ + Tracker 30 ngày, toggle ẩn bảng Day 1–30 để tập trung vào Log & Chart, lịch thực tế, quick notes, ghi chú ngày, biểu đồ tần suất, export JSON/CSV."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button class="theme-btn" id="themeToggle" aria-label="Chuyển giao diện">Dark Mode</button>
+<button class="print-btn" onclick="window.print()">In / Lưu PDF</button>
+
+<header class="site-header" id="siteHeader">
+  <h1 class="site-title">HƯỚNG DẪN VỆ SINH & CHĂM SÓC CHO DA MỤN</h1>
+  <p class="header-desc">
+    Lịch biểu • Hoạt chất • Theo dõi 30 ngày • Lịch thực tế • Ghi chú nhanh • Ghi chú đồng bộ • Log tần suất •
+    Biểu đồ • Export/Import
+  </p>
+  <nav class="top-nav" id="topNav" aria-label="Điều hướng nhanh">
+    <a href="#overview">Tổng quan</a>
+    <a href="#layering-principles">Layer</a>
+    <a href="#morning-routine">Routine Sáng</a>
+    <a href="#evening-routine">Routine Tối</a>
+    <a href="#decision-table">Quyết định</a>
+    <a href="#inflamed-pimple">Mụn viêm</a>
+    <a href="#ruptured-pimple">Mụn bể</a>
+    <a href="#actives">Hoạt chất</a>
+    <a href="#combinations">Kết hợp</a>
+    <a href="#adapalene-schedule">Lịch</a>
+    <a href="#adjust-signs">Điều chỉnh</a>
+    <a href="#tips">Mẹo</a>
+    <a href="#faq">FAQ</a>
+    <a href="#daily-tracker">Tracker</a>
+    <a href="#personal-notes">Ghi chú</a>
+    <a href="#summary">Tóm tắt</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Nội dung rút gọn các mục trước -->
+  <section id="overview">
+    <h2><span class="sec-index">01</span>Tổng quan nhanh</h2>
+    <div class="grid cols-3" style="margin-bottom: 44px;">
+      <div class="card"><h4>Mục tiêu</h4>
+        <ul>
+          <li>Giảm viêm & ngừa mụn mới</li>
+          <li>Ổn định hàng rào</li>
+          <li>Giảm thâm</li>
+        </ul>
+      </div>
+      <div class="card"><h4>Trụ cột</h4>
+        <ul>
+          <li>Adapalene</li>
+          <li>Sunscreen</li>
+          <li>Phục hồi</li>
+        </ul>
+      </div>
+      <div class="card"><h4>Nguyên tắc</h4>
+        <ul>
+          <li>Da khô trước retinoid</li>
+          <li>Tránh quá nhiều acid</li>
+          <li>Nghỉ khi kích ứng</li>
+        </ul>
+      </div>
+    </div>
+    <div class="inline-note">Duy trì: 5–6 tối/tuần + ≥1 tối nghỉ. Tránh chuỗi liên tục ≥7.</div>
+  </section>
+
+  <section id="layering-principles">
+    <h2><span class="sec-index">02</span>Nguyên tắc Layering</h2>
+    <table>
+      <tr>
+        <th>Tình huống</th>
+        <th>Thứ tự</th>
+        <th>Ghi chú</th>
+      </tr>
+      <tr>
+        <td>Da khỏe</td>
+        <td>Rửa → Khô → Adapalene → (10–15') → HA → Dưỡng ẩm</td>
+        <td>Tối ưu</td>
+      </tr>
+      <tr>
+        <td>Khô nhẹ</td>
+        <td>Rửa → Dưỡng mỏng → Adapalene → Dưỡng ẩm</td>
+        <td>Sandwich</td>
+      </tr>
+      <tr>
+        <td>Mụn viêm</td>
+        <td>Sáng BPO / Tối Adapalene</td>
+        <td>Không chấm dày</td>
+      </tr>
+      <tr>
+        <td>Mụn bể</td>
+        <td>Phục hồi, né vùng hở</td>
+        <td>Chờ se</td>
+      </tr>
+      <tr>
+        <td>Rát đỏ</td>
+        <td>Nghỉ 1–2 đêm</td>
+        <td>Buffer khi dùng lại</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="morning-routine">
+    <h2><span class="sec-index">03</span>Routine buổi sáng</h2>
+    <div class="timeline morning">
+      <div class="t"><strong>Rửa nhẹ</strong></div>
+      <div class="t"><strong>BPO</strong> (nếu viêm)</div>
+      <div class="t"><strong>Niacinamide / HA</strong></div>
+      <div class="t"><strong>Dưỡng ẩm</strong></div>
+      <div class="t"><strong>Sunscreen</strong></div>
+    </div>
+  </section>
+
+  <section id="evening-routine">
+    <h2><span class="sec-index">04</span>Routine buổi tối</h2>
+    <div class="timeline">
+      <div class="t"><strong>Rửa dịu</strong></div>
+      <div class="t"><strong>Khô 5–15'</strong></div>
+      <div class="t"><strong>Adapalene nền</strong></div>
+      <div class="t"><strong>HA (tùy)</strong></div>
+      <div class="t"><strong>Dưỡng ẩm</strong></div>
+    </div>
+  </section>
+
+  <section id="decision-table">
+    <h2><span class="sec-index">05</span>Bảng quyết định nhanh</h2>
+    <table>
+      <tr>
+        <th>Tình trạng</th>
+        <th>Tối nay</th>
+        <th>Ghi chú</th>
+      </tr>
+      <tr>
+        <td>Mụn sưng nhỏ</td>
+        <td>Adapalene nền</td>
+        <td>BPO sáng</td>
+      </tr>
+      <tr>
+        <td>Mụn to nhanh</td>
+        <td>BPO + theo dõi</td>
+        <td>Nghi sâu → khám</td>
+      </tr>
+      <tr>
+        <td>Mụn bể</td>
+        <td>Nghỉ vùng đó</td>
+        <td>Phục hồi</td>
+      </tr>
+      <tr>
+        <td>Đỏ nóng</td>
+        <td>Nghỉ 1–2 đêm</td>
+        <td>Buffer lại</td>
+      </tr>
+      <tr>
+        <td>Bong dày</td>
+        <td>Giảm tần suất</td>
+        <td>Sandwich</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="inflamed-pimple">
+    <h2><span class="sec-index">06</span>Mụn viêm mới</h2>
+    <ul>
+      <li>Chườm lạnh 5' (≤3 vòng)</li>
+      <li>Không nặn</li>
+      <li>BPO sáng / Adapalene tối</li>
+    </ul>
+  </section>
+
+  <section id="ruptured-pimple">
+    <h2><span class="sec-index">07</span>Mụn vừa bể</h2>
+    <ul>
+      <li>0–24h: rửa dịu, phục hồi, né retinoid</li>
+      <li>24–48h: quanh vùng, không bóc vảy</li>
+      <li>>48h: quay lại routine nếu mụn đã se</li>
+    </ul>
+  </section>
+
+  <section id="actives">
+    <h2><span class="sec-index">08</span>Hoạt chất</h2>
+    <table>
+      <tr>
+        <th>Hoạt chất</th>
+        <th>Vai trò</th>
+        <th>Dùng</th>
+        <th>Lưu ý</th>
+      </tr>
+      <tr>
+        <td>Adapalene</td>
+        <td>Điều hòa sừng</td>
+        <td>Tối</td>
+        <td>Da khô</td>
+      </tr>
+      <tr>
+        <td>BPO</td>
+        <td>Kháng viêm</td>
+        <td>Sáng</td>
+        <td>Bạc vải</td>
+      </tr>
+      <tr>
+        <td>Salicylic</td>
+        <td>Thông thoáng</td>
+        <td>Xen kẽ</td>
+        <td>Không lạm dụng</td>
+      </tr>
+      <tr>
+        <td>Niacinamide</td>
+        <td>Ổn định</td>
+        <td>Sáng/Tối</td>
+        <td>Êm</td>
+      </tr>
+      <tr>
+        <td>Azelaic</td>
+        <td>Thâm đỏ</td>
+        <td>Sáng</td>
+        <td>Châm chích nhẹ</td>
+      </tr>
+      <tr>
+        <td>Ceramide</td>
+        <td>Phục hồi</td>
+        <td>Daily</td>
+        <td>Nền</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="combinations">
+    <h2><span class="sec-index">09</span>Kết hợp</h2>
+    <ul>
+      <li>Adapalene tối + BPO sáng</li>
+      <li>Adapalene + Niacinamide</li>
+      <li>Adapalene + Azelaic (sáng)</li>
+    </ul>
+    <h3>Thận trọng</h3>
+    <ul>
+      <li>Quá nhiều acid cùng ngày</li>
+      <li>Nặn xong bôi retinoid</li>
+    </ul>
+  </section>
+
+  <section id="adapalene-schedule">
+    <h2><span class="sec-index">10</span>Lịch làm quen</h2>
+    <table>
+      <tr>
+        <th>Tuần</th>
+        <th>Tần suất</th>
+        <th>Nâng khi</th>
+        <th>Nếu kích ứng</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2–3 tối</td>
+        <td>Đỏ nhẹ</td>
+        <td>Giữ</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3–4 tối</td>
+        <td>Bong nhẹ</td>
+        <td>Buffer</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4–5 tối</td>
+        <td>Không nứt</td>
+        <td>Nghỉ 1</td>
+      </tr>
+      <tr>
+        <td>4+</td>
+        <td>5–6 tối</td>
+        <td>Ổn 2 tuần</td>
+        <td>Lùi mức</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="adjust-signs">
+    <h2><span class="sec-index">11</span>Dấu hiệu cần chỉnh</h2>
+    <div class="grid cols-3">
+      <div class="card"><h4>Giảm tần suất</h4>
+        <ul>
+          <li>Đỏ nóng</li>
+          <li>Bong mảng</li>
+          <li>Nứt</li>
+        </ul>
+      </div>
+      <div class="card"><h4>Nghỉ 1–2 đêm</h4>
+        <ul>
+          <li>Rát nước</li>
+          <li>Nhiều mụn bể</li>
+        </ul>
+      </div>
+      <div class="card"><h4>Khám bác sĩ</h4>
+        <ul>
+          <li>Nốt sâu đau</li>
+          <li>Bùng viêm</li>
+          <li>Lan đỏ</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2><span class="sec-index">12</span>Mẹo</h2>
+    <ul>
+      <li>Ngủ đủ giấc từ 7-8 tiếng</li>
+      <li>Giảm lượng đường, đặc biệt là đường tinh luyện</li>
+      <li>Không tỳ/chạm tay vào mụn, vệ sinh tay trước khi chạm vào mụn</li>
+      <li>Chống nắng đầy đủ</li>
+      <li>Vệ sinh vật dụng thường xuyên</li>
+    </ul>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2><span class="sec-index">13</span>FAQ</h2>
+    <details>
+      <summary>Chấm trực tiếp nốt sưng nhanh hơn?</summary>
+      <p>Không đáng kể so với bôi nền đều phòng ngừa.</p></details>
+    <details>
+      <summary>BPO sáng có cần rửa?</summary>
+      <p>Không, chỉ cần khô trước sản phẩm tiếp.</p></details>
+    <details>
+      <summary>Patch khi nào?</summary>
+      <p>Khi có đầu hoặc sau bể đã se; không dùng trên mụn sâu.</p></details>
+  </section>
+
+  <section id="daily-tracker">
+    <h2><span class="sec-index">14</span>Daily Tracker (Ẩn/Hiện bảng 30 ngày, tập trung Log & Chart)</h2>
+    <p style="font-size:.82rem;margin-top:-4px;line-height:1.55">
+      Bạn có thể ẩn bảng Day 1–30 để tập trung vào Log tần suất & Biểu đồ. Lúc cần đánh dấu chi tiết, bật lại nhanh.
+      Trạng thái ẩn/hiện được lưu cho lần truy cập sau.
+    </p>
+    <div class="tracker-wrapper">
+      <div class="tracker-day">
+        <label
+          style="display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--fg);padding:7px 12px;border-radius:10px;font-size:.75rem;">
+          Ngày hiện tại:
+          <input type="number" id="trkCurrentDay" min="1" max="30" value="1"/>
+        </label>
+        <label
+          style="display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--fg);padding:7px 12px;border-radius:10px;font-size:.75rem;">
+          Ngày bắt đầu:
+          <input type="date" id="calendarStart"/>
+        </label>
+      </div>
+      <div class="tracker-toolbar">
+        <div class="tracker-group">
+          <label style="font-size: 14px; font-weight: bold;">Thao tác với lịch</label>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;align-items:flex-start;">
+            <button id="toggleDailyTable" class="alt" title="Ẩn/Hiện bảng Day 1–30">Ẩn bảng 30 ngày</button>
+            <button id="toggleCalendar" class="secondary">Hiện Lịch</button>
+          </div>
+        </div>
+        <div class="tracker-group">
+          <label style="font-size: 14px; font-weight: bold;">Thao tác tick ADA (Adapalene)</label>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;align-items:flex-start;">
+            <button id="trkTodayAda" class="secondary">Đánh dấu bôi ADA</button>
+            <button id="trkFillWeek" class="secondary">Gợi ý ADA tuần</button>
+          </div>
+        </div>
+        <div class="tracker-group">
+          <label style="font-size: 14px; font-weight: bold;">Thao tác với lịch</label>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;align-items:flex-start;">
+            <div style="display: flex; flex-direction: row; gap: 0.5rem;align-items:flex-start;">
+              <button id="trkExport" class="alt">Xuất JSON</button>
+              <button id="trkImport" class="alt">Nhập JSON</button>
+            </div>
+            <div style="display: flex; flex-direction: row; gap: 0.5rem;align-items:flex-start;">
+              <button id="trkExportCSV" class="secondary">CSV Tracker</button>
+              <button id="trkExportLogCSV" class="secondary">CSV Log</button>
+            </div>
+          </div>
+        </div>
+        <div class="tracker-group">
+          <label style="font-size: 14px; font-weight: bold;">Phím chức năng</label>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;align-items:flex-start;">
+            <button id="trkChartPNG" class="secondary">PNG Chart</button>
+            <button id="trkClear" class="danger">Xóa tất cả</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAILY TABLE WRAP -->
+      <div class="daily-table-wrap" id="dailyTableWrap">
+        <table class="tracker-table" id="trackerTable">
+          <thead>
+          <tr>
+            <th>Day</th>
+            <th>Sáng</th>
+            <th>Tối</th>
+            <th>BPO</th>
+            <th>Adapalene</th>
+          </tr>
+          </thead>
+          <tbody id="trackerBody"></tbody>
+        </table>
+        <div class="tracker-legend">
+          <span><span class="legend-box"></span> Đã đánh dấu</span>
+          <span><span class="legend-box alt"></span> Adapalene</span>
+          <span><span class="legend-box neutral"></span> Chưa dùng</span>
+          <span><span class="legend-box note"></span> Quick Note</span>
+        </div>
+      </div>
+      <div class="daily-table-ghost" id="dailyTableGhost">
+        <div><strong>Đang ẩn bảng 30 ngày.</strong></div>
+        <div style="opacity:.8">
+          Bạn vẫn có thể: Gợi ý tuần, đánh dấu ADA hôm nay, xem Log & Biểu đồ. Nhấn “Hiện bảng 30 ngày” để bật lại.
+        </div>
+        <div class="collapse-hint">Tối giản để tập trung phân tích tần suất 🔍</div>
+      </div>
+
+      <!-- Calendar Panel -->
+      <div class="calendar-panel" id="calendarPanel">
+        <strong style="font-size:.7rem;letter-spacing:.6px;display:block;margin:0 0 10px;">Lịch tổng quan (click ngày /
+          mở note)</strong>
+        <div class="calendar-grid" id="calendarGrid"></div>
+      </div>
+
+      <!-- LOG + METRICS + CHART -->
+      <div class="ada-log" id="adaLog">
+        <h3>Log tần suất Adapalene (Duy trì)</h3>
+        <table class="ada-log-table" id="adaLogTable">
+          <thead>
+          <tr>
+            <th>Tuần</th>
+            <th>Khoảng ngày</th>
+            <th>Số tối dùng</th>
+            <th>Số tối nghỉ</th>
+            <th>Streak dài nhất</th>
+            <th>Trạng thái</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr data-week="1">
+            <td>1</td>
+            <td>1–7</td>
+            <td class="count">0</td>
+            <td class="rest">0</td>
+            <td class="streak">0</td>
+            <td class="status"></td>
+          </tr>
+          <tr data-week="2">
+            <td>2</td>
+            <td>8–14</td>
+            <td class="count">0</td>
+            <td class="rest">0</td>
+            <td class="streak">0</td>
+            <td class="status"></td>
+          </tr>
+          <tr data-week="3">
+            <td>3</td>
+            <td>15–21</td>
+            <td class="count">0</td>
+            <td class="rest">0</td>
+            <td class="streak">0</td>
+            <td class="status"></td>
+          </tr>
+          <tr data-week="4">
+            <td>4</td>
+            <td>22–28</td>
+            <td class="count">0</td>
+            <td class="rest">0</td>
+            <td class="streak">0</td>
+            <td class="status"></td>
+          </tr>
+          <tr data-week="5">
+            <td>5*</td>
+            <td>29–30</td>
+            <td class="count">0</td>
+            <td class="rest">0</td>
+            <td class="streak">0</td>
+            <td class="status"></td>
+          </tr>
+          </tbody>
+        </table>
+        <div class="metrics-box" id="adaMetrics">
+          <div class="metric"><strong>Tổng đêm dùng</strong><span id="mTotal">0</span></div>
+          <div class="metric"><strong>TB / tuần</strong><span id="mAvg">0</span></div>
+          <div class="metric"><strong>Longest streak</strong><span id="mStreak">0</span></div>
+          <div class="metric"><strong>Đêm nghỉ cuối</strong><span id="mLastRest">—</span></div>
+          <div class="metric"><strong>Ngày hiện tại</strong><span id="mTodayHint">—</span></div>
+        </div>
+        <div class="ada-summary" id="adaSummary">Chưa đủ dữ liệu. Thêm đánh dấu để phân tích.</div>
+        <div class="chart-wrap">
+          <div class="chart-title">
+            Biểu đồ tần suất Adapalene (30 ngày)
+            <div class="chart-legend">
+              <span><span class="cl-box"></span> Đã dùng ADA</span>
+              <span><span class="cl-box off"></span> Nghỉ</span>
+              <span><span class="cl-box avg"></span> Ngưỡng 5–6/tuần</span>
+            </div>
+          </div>
+          <canvas id="adaChart" width="900" height="170" style="width:100%;max-width:100%;display:block;"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Note Modal -->
+  <div class="modal-overlay" id="quickNoteModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="qnTitle">
+      <button class="modal-close" id="qneClose">Đóng</button>
+      <h3 id="qnTitle">Quick Note Ngày <span id="qneDay"></span></h3>
+      <textarea id="qneText" placeholder="Ghi chú ngắn: ngủ ít, stress, test sp mới, khô vùng cằm..."></textarea>
+      <div class="modal-actions">
+        <button id="qneSave" class="alt">Lưu</button>
+        <button id="qneDelete" class="danger">Xóa</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="personal-notes">
+    <h2><span class="sec-index">15</span>Ghi chú cá nhân (Đồng bộ)</h2>
+    <div class="notes-intro">
+      Ghi chú ngày 1–30 kết nối với “Ngày bắt đầu” và Day hiện tại trong Tracker. Có thể chọn ngày thực tế hoặc load
+      nhanh qua History.
+    </div>
+    <div class="notes-day-bar">
+      <button id="dayPrev" class="secondary">← Trước</button>
+      <label
+        style="display:flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--fg);padding:7px 12px;border-radius:10px;font-size:.58rem;">Day:
+        <input type="number" id="noteDay" min="1" max="30" value="1"/>
+      </label>
+      <span class="notes-realdate" id="notesRealDate">Chưa thiết lập ngày bắt đầu</span>
+      <label
+        style="display:flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--fg);padding:7px 12px;border-radius:10px;font-size:.58rem;">Ngày
+        thực tế:
+        <input type="date" id="notesRealDatePicker"/>
+      </label>
+      <button id="dayNext" class="secondary">Sau →</button>
+      <button id="duplicatePrev" class="alt">Copy hôm trước</button>
+      <button id="historyBtn" class="secondary">Lịch sử</button>
+      <button id="lockToggle" data-locked="false">Khóa</button>
+      <button id="exportNotes" class="alt">Xuất JSON</button>
+      <button id="importNotes" class="alt">Nhập JSON</button>
+      <button id="clearNotes" class="danger">Xóa ngày</button>
+      <span class="notes-save-status" id="notesStatus">—</span>
+    </div>
+    <div class="notes-grid" id="notesGrid">
+      <div class="note-card" data-key="morning">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Sáng <span class="sub">Morning</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Cảm giác sau rửa
+- Dầu vùng T?
+- BPO? (Y/N)
+- SPF đủ?"></textarea>
+        <div class="note-footer">ID: morning</div>
+      </div>
+      <div class="note-card" data-key="evening">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Tối <span class="sub">Evening</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Adapalene? (Y/N)
+- Buffer? (Y/N)
+- Cảm giác
+- Bong / Rát / Ẩm"></textarea>
+        <div class="note-footer">ID: evening</div>
+      </div>
+      <div class="note-card" data-key="actives">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Hoạt chất thử <span class="sub">Actives</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Sản phẩm:
+- Ngày bắt đầu:
+- Phản ứng 24h:
+- Tiếp tục?"></textarea>
+        <div class="note-footer">ID: actives</div>
+      </div>
+      <div class="note-card" data-key="breakouts">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Mụn nổi bật <span class="sub">Breakouts</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Vị trí / Loại
+- Đau? (Y/N)
+- Xử lý
+- Tiến triển"></textarea>
+        <div class="note-footer">ID: breakouts</div>
+      </div>
+      <div class="note-card" data-key="adjustments">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Điều chỉnh <span class="sub">Adjust</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Thay đổi:
+- Lý do:
+- Theo dõi:"></textarea>
+        <div class="note-footer">ID: adjustments</div>
+      </div>
+      <div class="note-card" data-key="lifestyle">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Lifestyle <span class="sub">Habits</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Ngủ (h):
+- Stress (1–5):
+- Đường/sữa:
+- Tập luyện:"></textarea>
+        <div class="note-footer">ID: lifestyle</div>
+      </div>
+      <div class="note-card" data-key="weekly-summary">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Tổng kết nhanh <span class="sub">Mini</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Xu hướng:
+- Khác biệt:
+- Ưu tiên ngày mai:"></textarea>
+        <div class="note-footer">ID: weekly-summary</div>
+      </div>
+      <div class="note-card" data-key="questions">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Câu hỏi <span class="sub">Q&A</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Triệu chứng lạ:
+- Thâm / sẹo:
+- Hỏi bác sĩ:"></textarea>
+        <div class="note-footer">ID: questions</div>
+      </div>
+      <div class="note-card" data-key="misc">
+        <div class="note-actions">
+          <button class="note-btn" data-save>Save</button>
+          <button class="note-btn clear" data-clear>X</button>
+        </div>
+        <h4>Khác <span class="sub">Misc</span></h4>
+        <div class="note-lines"></div>
+        <textarea class="note-area" placeholder="- Ý tưởng
+- Experiment
+- Ghi chú tự do"></textarea>
+        <div class="note-footer">ID: misc</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="summary">
+    <h2><span class="sec-index">16</span>Tóm tắt 60 giây</h2>
+    <p><strong>Sáng:</strong> Rửa → (BPO nếu cần) → Niacinamide / HA → Dưỡng ẩm → SPF.</p>
+    <p><strong>Tối:</strong> Rửa → Khô → Adapalene → (HA) → Dưỡng ẩm (buffer khi rát).</p>
+    <p><strong>Tần suất:</strong> 5–6 tối/tuần + nghỉ ≥1; tránh streak ≥7.</p>
+    <p><strong>Ẩn bảng 30 ngày:</strong> Dành cho phase phân tích log & chart.</p>
+  </section>
+
+  <footer>
+    Thông tin tham khảo – không thay thế tư vấn y khoa cá nhân. Dấu hiệu viêm lan / nhiễm trùng: gặp bác sĩ da liễu.
+    <br/><br/>Dữ liệu lưu cục bộ (localStorage). Xuất JSON/CSV định kỳ để sao lưu.
+  </footer>
+</main>
+
+<!-- HISTORY OVERLAY -->
+<div class="history-panel" id="historyPanel" aria-hidden="true">
+  <div class="history-box">
+    <button class="history-close" id="historyClose">Đóng</button>
+    <h3>Lịch sử ngày có ghi chú</h3>
+    <p style="font-size:.7rem;line-height:1.45;margin-top:-4px">
+      Lọc theo danh mục để tìm pattern (ví dụ: breakouts). Chọn ngày để nạp vào vùng ghi chú.
+    </p>
+    <div class="history-filter">
+      <select id="historyFilterCat">
+        <option value="">Tất cả</option>
+        <option value="morning">morning</option>
+        <option value="evening">evening</option>
+        <option value="actives">actives</option>
+        <option value="breakouts">breakouts</option>
+        <option value="adjustments">adjustments</option>
+        <option value="lifestyle">lifestyle</option>
+        <option value="weekly-summary">weekly-summary</option>
+        <option value="questions">questions</option>
+        <option value="misc">misc</option>
+      </select>
+      <button id="historyRefresh" class="secondary" style="background:#5a6672;">Làm mới</button>
+    </div>
+    <div class="history-list" id="historyList"></div>
+    <div id="historyDetail" class="history-detail" style="display:none"></div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
